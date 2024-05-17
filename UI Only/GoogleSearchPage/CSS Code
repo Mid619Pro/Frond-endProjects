@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(46, 43, 43);
+}
+.logo{
+    margin:auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.input {
+    padding-top: 20px;
+}
+input{
+    width: 600px;
+    padding:15px 50px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255) !important;
+    border:1px solid #ccc;
+    background:url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) no-repeat,
+    url(search.svg) no-repeat;
+    background-size: 30px,25px;
+    background-position: right 15px center ,left 15px center;
+    caret-color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 16px;
+    color:rgb(3, 14, 14);
+}
+input:focus,input:hover{
+    outline:none;
+    box-shadow: 1.5px 1.5px 10px .5px rgba(196, 200, 201, 0.443);
+}
+.but{
+    padding:20px;
+}
+button{
+    margin: 5px;
+    padding:5px 10px;
+    background-color: #e8e0e0a0;
+    border:none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+ol.languages{
+    list-style: none;
+}
+ol.languages li{
+    display:inline;
+    padding-left: 5px;
+    font-size: 12px;
+    color:aliceblue;
+}
+ol.languages li>a{
+    text-decoration: none;
+    color:rgb(131, 221, 79);
+}
+ol.languages li>a:hover{
+    text-decoration: red underline;
+
+}
+.footer{
+    height: 60px;
+    width:100%;
+    background-color: #070707;
+    position: fixed;
+    bottom: 0;
+    padding: 25px;
+    border-top:1px solid rgb(78, 76, 76);
+}
+.foot li{
+    display:inline;
+    padding-left: 10px;
+    color:rgba(22, 13, 13, 0.532);
+    color: rgb(236, 240, 243);
+    cursor: pointer;
+}

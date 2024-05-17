@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" width="270px" alt="Google logo">
+        <div class="input">
+          <input type="text">
+        </div>
+        <div class="but">
+          <button>Google search</button>
+          <button>i'm feeling lucky</button>
+        </div>
+        <div class="languages">
+          <ol class="languages">
+            <li>Google offered in :</li>
+             <li><a href="#">தமிழ்</a></li>
+             <li><a href="#">മലയാളം</a></li>
+             <li><a href="#">తెలుగు</a></li>
+             <li><a href="#">हिंदी</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="footer">
+        <ol class="foot">
+          <li>About</li>
+          <li>Advertising</li>
+          <li>Business</li>
+          <li>How Search works</li>
+        </ol>
+        <ol class="footend">
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Setting</li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
